@@ -457,7 +457,7 @@ export class MiniKit {
       }
 
       const siweMessage = generateSiweMessage({
-        scheme: '',
+        scheme: protocol,
         domain: window.location.host,
         statement: payload.statement ?? undefined,
         uri: window.location.href,
